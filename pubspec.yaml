@@ -1,0 +1,38 @@
+name: dream_alarm
+description: "깨워 드림(Dream) - 무조건 깨워주는 알람 앱. 게임을 풀어야만 알람이 꺼진다."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  sqflite: ^2.4.2
+  sqflite_common_ffi: ^2.3.4+4
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  shared_preferences: ^2.3.5
+  intl: ^0.20.2
+  timezone: ^0.10.1
+  permission_handler: ^11.3.1
+  flutter_local_notifications: ^19.0.0
+  android_alarm_manager_plus: ^4.0.7
+  flutter_background_service: ^5.0.12
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/sounds/
